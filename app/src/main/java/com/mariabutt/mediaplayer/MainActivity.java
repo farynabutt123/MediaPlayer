@@ -62,7 +62,6 @@ get();
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        Log.e("savedRestore", "" + count);
     }
 
     @Override
